@@ -1,0 +1,498 @@
+{
+  "_version": "1.0",
+  "project": {
+    "_id": "60b29fb59b0071001c3022e4",
+    "name": "Weather",
+    "teamID": "eOn2M7xjKD",
+    "devVersion": "60b29fb5faffae000654afe4",
+    "platform": "google",
+    "platformData": {
+      "invocationName": "template project google"
+    },
+    "members": [],
+    "linkType": "STRAIGHT",
+    "image": "",
+    "creatorID": 46000
+  },
+  "version": {
+    "_id": "60b29fb5faffae000654afe4",
+    "name": "Initial Version",
+    "projectID": "60b29fb59b0071001c3022e4",
+    "variables": [
+      "city",
+      "description",
+      "temp"
+    ],
+    "platformData": {
+      "slots": [],
+      "intents": [],
+      "settings": {
+        "restart": true,
+        "repeat": 100
+      },
+      "publishing": {
+        "voice": "",
+        "locales": [
+          "en-US",
+          "en-AU",
+          "en-CA",
+          "en-GB",
+          "en-IN",
+          "en-BE",
+          "en-SG"
+        ],
+        "displayName": "Weather",
+        "developerName": "",
+        "pronunciation": "Rushi",
+        "invocationName": "",
+        "smallLogoImage": "",
+        "developerEmail": "",
+        "fullDescription": "",
+        "largeBannerImage": "",
+        "privacyPolicyUrl": "",
+        "shortDescription": "",
+        "termsOfServiceUrl": "",
+        "sampleInvocations": [
+          "open Rushi",
+          "start Rushi",
+          "launch Rushi"
+        ]
+      },
+      "status": {
+        "stage": "DEV"
+      },
+      "platform": "google"
+    },
+    "rootDiagramID": "60b29fb5faffae000654afe5",
+    "creatorID": 46000,
+    "prototype": {
+      "data": {
+        "name": "Weather",
+        "locales": [
+          "en-US",
+          "en-US",
+          "en-US",
+          "en-US",
+          "en-US",
+          "en-US",
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "storage": {},
+            "variables": {},
+            "programID": "60b29fb5faffae000654afe5"
+          }
+        ]
+      },
+      "settings": {}
+    }
+  },
+  "diagrams": {
+    "60b29fb5faffae000654afe5": {
+      "_id": "60b29fb5faffae000654afe5",
+      "offsetX": 184.12287609477607,
+      "offsetY": 147.92046773676196,
+      "zoom": 80,
+      "nodes": {
+        "5f9f562f11b31520c2a2a6eb": {
+          "nodeID": "5f9f562f11b31520c2a2a6eb",
+          "type": "start",
+          "coords": [
+            243.75,
+            88.75
+          ],
+          "data": {
+            "name": "Start",
+            "color": "standard",
+            "ports": [
+              {
+                "type": "",
+                "target": "60b29fd3543cee3f14ede848",
+                "id": "60b29fbf543cee3f14ede842",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        408.7500381469726,
+                        169.0000133514404
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        455.3750190734862,
+                        169.0000133514404
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        455.3750190734862,
+                        -1.0000019073486612
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        501.9999999999999,
+                        -1.0000019073486612
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": []
+          }
+        },
+        "60b29fd3543cee3f14ede845": {
+          "nodeID": "60b29fd3543cee3f14ede845",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "From which city do you want temperature?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60b2a03f543cee3f14ede853",
+                "id": "60b29fd3543cee3f14ede847",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        832.0000076293944,
+                        59.500005722045884
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        856.0000076293944,
+                        59.500005722045884
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        856.0000076293944,
+                        134.99999237060544
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        675.75,
+                        134.99999237060544
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        675.75,
+                        209.4999980926513
+                      ],
+                      "toTop": true,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60b29fd3543cee3f14ede848": {
+          "nodeID": "60b29fd3543cee3f14ede848",
+          "type": "block",
+          "coords": [
+            666.9999999999999,
+            -32.00000000000003
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60b29fd3543cee3f14ede845"
+            ]
+          }
+        },
+        "60b2a03f543cee3f14ede850": {
+          "nodeID": "60b2a03f543cee3f14ede850",
+          "type": "capture",
+          "data": {
+            "slot": "Custom",
+            "variable": "city",
+            "reprompt": null,
+            "slotInputs": [
+              "Kolkata",
+              "Delhi",
+              "Goa",
+              "Pune",
+              "Mumbai"
+            ],
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "60b2a07f543cee3f14ede865",
+                "id": "60b2a03f543cee3f14ede852",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        840.7502353853349,
+                        290.75327322042364
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        900.1583837351945,
+                        290.75327322042364
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        900.1583837351945,
+                        -4.392038966575577
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        959.5665320850543,
+                        -4.392038966575577
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60b2a03f543cee3f14ede853": {
+          "nodeID": "60b2a03f543cee3f14ede853",
+          "type": "block",
+          "coords": [
+            675.7499999999999,
+            210.49999999999994
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60b2a03f543cee3f14ede850"
+            ]
+          }
+        },
+        "60b2a07f543cee3f14ede861": {
+          "nodeID": "60b2a07f543cee3f14ede861",
+          "type": "api",
+          "data": {
+            "url": "https://api.weatherbit.io/v2.0/current?city={city}&key=e75cbb93f9d040eba7fd4740fb9e344e",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "method": "GET",
+            "headers": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "content": "",
+            "mappings": [
+              {
+                "path": "response.data.0.weather.description",
+                "var": "description"
+              },
+              {
+                "path": "response.data.0.temp",
+                "var": "temp"
+              }
+            ],
+            "bodyType": "formData",
+            "selectedAction": "Make a GET Request",
+            "selectedIntegration": "Custom API",
+            "ports": [
+              {
+                "type": "",
+                "target": "60b2a22b543cee3f14ede86e",
+                "id": "60b2a07f543cee3f14ede863",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        928.3333511352537,
+                        145.35416221618647
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        904.3333511352537,
+                        145.35416221618647
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        904.3333511352537,
+                        407.354169845581
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        936.8541870117186,
+                        407.354169845581
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "fail",
+                "target": null,
+                "id": "60b2a07f543cee3f14ede864"
+              }
+            ]
+          }
+        },
+        "60b2a07f543cee3f14ede865": {
+          "nodeID": "60b2a07f543cee3f14ede865",
+          "type": "block",
+          "coords": [
+            1124.5761895199428,
+            -35.387049130684524
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60b2a07f543cee3f14ede861"
+            ]
+          }
+        },
+        "60b2a22b543cee3f14ede86e": {
+          "nodeID": "60b2a22b543cee3f14ede86e",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Here is the temperature in {{[city].city}}  and it will be {{[description].description}}."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "60b2a22b543cee3f14ede870"
+              }
+            ]
+          }
+        },
+        "60b2a22b543cee3f14ede871": {
+          "nodeID": "60b2a22b543cee3f14ede871",
+          "type": "block",
+          "coords": [
+            1134.09640488153,
+            283.34941532904753
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60b2a22b543cee3f14ede86e"
+            ]
+          }
+        }
+      },
+      "variables": [],
+      "children": [],
+      "name": "ROOT",
+      "versionID": "60b29fb5faffae000654afe4",
+      "creatorID": 46000,
+      "modified": 1626277143
+    }
+  }
+}
